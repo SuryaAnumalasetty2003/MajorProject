@@ -1,0 +1,9 @@
+y
+nC:\ParkingLotAllocationSystem\SeleniumTesting_Project\obj\Debug\net8.0\SeleniumTesting_Project.AssemblyInfo.csutf-8€
+uC:\ParkingLotAllocationSystem\SeleniumTesting_Project\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8{
+pC:\ParkingLotAllocationSystem\SeleniumTesting_Project\obj\Debug\net8.0\SeleniumTesting_Project.GlobalUsings.g.csutf-8ƒ
+xC:\Users\naga.kiran\.nuget\packages\microsoft.net.test.sdk\17.12.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.csutf-8W
+NC:\ParkingLotAllocationSystem\SeleniumTesting_Project\SearchAndViewEndToEnd.csutf-8]
+TC:\ParkingLotAllocationSystem\SeleniumTesting_Project\ParkingAllocationEnd-to-End.csutf-8P
+GC:\ParkingLotAllocationSystem\SeleniumTesting_Project\MSTestSettings.csutf-8W
+NC:\ParkingLotAllocationSystem\SeleniumTesting_Project\EndToEndUserFlowTests.csutf-8

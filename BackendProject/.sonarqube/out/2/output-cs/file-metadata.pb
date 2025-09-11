@@ -1,0 +1,13 @@
+s
+hC:\ParkingLotAllocationSystem\BackendProjectTests\obj\Debug\net8.0\BackendProjectTests.GlobalUsings.g.csutf-8q
+fC:\ParkingLotAllocationSystem\BackendProjectTests\obj\Debug\net8.0\BackendProjectTests.AssemblyInfo.csutf-8|
+qC:\ParkingLotAllocationSystem\BackendProjectTests\obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.csutf-8|
+qC:\Users\naga.kiran\.nuget\packages\microsoft.net.test.sdk\17.14.1\build\net8.0\Microsoft.NET.Test.Sdk.Program.csutf-8h
+_C:\ParkingLotAllocationSystem\BackendProjectTests\Service\Implementation\VehicleServiceTests.csutf-8e
+\C:\ParkingLotAllocationSystem\BackendProjectTests\Service\Implementation\UserServiceTests.csutf-8^
+UC:\ParkingLotAllocationSystem\BackendProjectTests\Controllers\UsersControllerTests.csutf-8k
+bC:\ParkingLotAllocationSystem\BackendProjectTests\Service\Implementation\ParkingLotServiceTests.csutf-8r
+iC:\ParkingLotAllocationSystem\BackendProjectTests\Service\Implementation\ParkingAllocationServiceTests.csutf-8k
+bC:\ParkingLotAllocationSystem\BackendProjectTests\Controllers\ParkingAllocationsControllerTests.csutf-8a
+XC:\ParkingLotAllocationSystem\BackendProjectTests\Controllers\VehiclesControllerTests.csutf-8d
+[C:\ParkingLotAllocationSystem\BackendProjectTests\Controllers\ParkingLotsControllerTests.csutf-8

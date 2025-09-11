@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED6B06-2956-028E-B5C7-DA9CFD669F9A}|SeleniumTesting_Project.csproj|c:\\parkinglotallocationsystem\\seleniumtesting_project\\parkingallocationend-to-end.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED6B06-2956-028E-B5C7-DA9CFD669F9A}|SeleniumTesting_Project.csproj|solutionrelative:parkingallocationend-to-end.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED6B06-2956-028E-B5C7-DA9CFD669F9A}|SeleniumTesting_Project.csproj|c:\\parkinglotallocationsystem\\seleniumtesting_project\\searchandviewendtoend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED6B06-2956-028E-B5C7-DA9CFD669F9A}|SeleniumTesting_Project.csproj|solutionrelative:searchandviewendtoend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9FED6B06-2956-028E-B5C7-DA9CFD669F9A}|SeleniumTesting_Project.csproj|c:\\parkinglotallocationsystem\\seleniumtesting_project\\endtoenduserflowtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9FED6B06-2956-028E-B5C7-DA9CFD669F9A}|SeleniumTesting_Project.csproj|solutionrelative:endtoenduserflowtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ParkingAllocationEnd-to-End.cs",
+              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\ParkingAllocationEnd-to-End.cs",
+              "RelativeDocumentMoniker": "ParkingAllocationEnd-to-End.cs",
+              "ToolTip": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\ParkingAllocationEnd-to-End.cs",
+              "RelativeToolTip": "ParkingAllocationEnd-to-End.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwFAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T17:02:38.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchAndViewEndToEnd.cs",
+              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SearchAndViewEndToEnd.cs",
+              "RelativeDocumentMoniker": "SearchAndViewEndToEnd.cs",
+              "ToolTip": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SearchAndViewEndToEnd.cs",
+              "RelativeToolTip": "SearchAndViewEndToEnd.cs",
+              "ViewState": "AgIAALAAAAAAAAAAAAAYwMkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T16:27:20.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EndToEndUserFlowTests.cs",
+              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\EndToEndUserFlowTests.cs",
+              "RelativeDocumentMoniker": "EndToEndUserFlowTests.cs",
+              "ToolTip": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\EndToEndUserFlowTests.cs",
+              "RelativeToolTip": "EndToEndUserFlowTests.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAiwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T16:13:22.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

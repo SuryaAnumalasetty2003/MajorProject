@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c3383c1a-bd4a-4711-a8ec-5e2857082263" name="naga.kiran@SOLNB-1HX9F94 2025-08-06 11:17:52" runUser="INT\naga.kiran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-08-06T11:17:52.8573366+05:30" queuing="2025-08-06T11:17:52.8573371+05:30" start="2025-08-06T11:17:46.2235382+05:30" finish="2025-08-06T11:17:58.0790725+05:30" />
+  <TestSettings name="default" id="723fa6b9-88a0-404b-87f8-4e2cce441683">
+    <Deployment runDeploymentRoot="naga.kiran_SOLNB-1HX9F94_2025-08-06_11_17_52" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="3c497edb-7756-43ca-bafc-e186c187fdc8" testId="63530cfe-6638-9f3f-7d33-496b8f8b65b3" testName="AdminAllocation_VehicleNotFound_ShowsError" computerName="SOLNB-1HX9F94" duration="00:00:07.0815893" startTime="2025-08-06T11:17:46.7669278+05:30" endTime="2025-08-06T11:17:53.8660862+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c497edb-7756-43ca-bafc-e186c187fdc8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.ParkingAllocationEnd_to_End.AdminAllocation_VehicleNotFound_ShowsError threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.ParkingAllocationEnd_to_End.AdminAllocation_VehicleNotFound_ShowsError() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\ParkingAllocationEnd-to-End.cs:line 185&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8e3418dc-f506-4881-91fb-5116e2a2bcef" testId="0e51c84b-f98e-b497-2a53-c7501b2194eb" testName="AdminLogin_AddAllocationForUserVehicle_WithFailScenario" computerName="SOLNB-1HX9F94" duration="00:00:08.1342478" startTime="2025-08-06T11:17:46.7669111+05:30" endTime="2025-08-06T11:17:54.9192384+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e3418dc-f506-4881-91fb-5116e2a2bcef">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.ParkingAllocationEnd_to_End.AdminLogin_AddAllocationForUserVehicle_WithFailScenario threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.ParkingAllocationEnd_to_End.AdminLogin_AddAllocationForUserVehicle_WithFailScenario() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\ParkingAllocationEnd-to-End.cs:line 110&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="95449080-b93c-4d48-a371-22d516c141fb" testId="fc8fe753-6fc4-0d36-9762-7ce6b6791b70" testName="SearchVehicle_GetVehicleDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:05.7122034" startTime="2025-08-06T11:17:46.7857510+05:30" endTime="2025-08-06T11:17:52.4983036+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95449080-b93c-4d48-a371-22d516c141fb">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.SearchAndViewEndToEnd.SearchVehicle_GetVehicleDetails_IsPresent threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.SearchAndViewEndToEnd.SearchVehicle_GetVehicleDetails_IsPresent() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\SearchAndViewEndToEnd.cs:line 414&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c06c6c86-7a9d-47ab-a245-7318dc95d5a4" testId="2db294f3-38ae-d3c4-224e-261b8bc275dd" testName="Searchlot_VerifylotDetails_IsNotPresent" computerName="SOLNB-1HX9F94" duration="00:00:05.7687477" startTime="2025-08-06T11:17:46.7856953+05:30" endTime="2025-08-06T11:17:52.5546882+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c06c6c86-7a9d-47ab-a245-7318dc95d5a4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.SearchAndViewEndToEnd.Searchlot_VerifylotDetails_IsNotPresent threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.SearchAndViewEndToEnd.Searchlot_VerifylotDetails_IsNotPresent() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\SearchAndViewEndToEnd.cs:line 331&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="76f3f69f-c0f0-40e3-ac38-05888bc132e4" testId="efbadfeb-318b-b6b9-c926-e3b92f558f3a" testName="SearchVehicle_VerifyVehicleDetails_IsNotPresent" computerName="SOLNB-1HX9F94" duration="00:00:08.2785494" startTime="2025-08-06T11:17:46.7856676+05:30" endTime="2025-08-06T11:17:55.0645216+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76f3f69f-c0f0-40e3-ac38-05888bc132e4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.SearchAndViewEndToEnd.SearchVehicle_VerifyVehicleDetails_IsNotPresent threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.SearchAndViewEndToEnd.SearchVehicle_VerifyVehicleDetails_IsNotPresent() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\SearchAndViewEndToEnd.cs:line 251&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bd43d489-8011-4a6b-993f-e270c9ff1740" testId="f2599ea6-49d0-1a52-9cf3-06c42c72814c" testName="Searchlot_VerifylotDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:05.5964380" startTime="2025-08-06T11:17:46.7856831+05:30" endTime="2025-08-06T11:17:52.3866101+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd43d489-8011-4a6b-993f-e270c9ff1740">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.SearchAndViewEndToEnd.Searchlot_VerifylotDetails_IsPresent threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.SearchAndViewEndToEnd.Searchlot_VerifylotDetails_IsPresent() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\SearchAndViewEndToEnd.cs:line 290&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c3010831-ea8e-4f5f-a1cb-9f94f11d0906" testId="87781c4c-cc06-2bdf-601e-3fb8ed7a6dce" testName="SearchAllocation_VerifylotDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:08.0871395" startTime="2025-08-06T11:17:46.7672509+05:30" endTime="2025-08-06T11:17:54.8719646+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3010831-ea8e-4f5f-a1cb-9f94f11d0906">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.SearchAndViewEndToEnd.SearchAllocation_VerifylotDetails_IsPresent threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.SearchAndViewEndToEnd.SearchAllocation_VerifylotDetails_IsPresent() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\SearchAndViewEndToEnd.cs:line 126&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ebe39c2d-69db-450c-b16f-2360f91d9a34" testId="c692436e-627b-30d2-715e-aebe0340b348" testName="Searchlot_lotDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:06.9600125" startTime="2025-08-06T11:17:46.7857411+05:30" endTime="2025-08-06T11:17:53.7460503+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebe39c2d-69db-450c-b16f-2360f91d9a34">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.SearchAndViewEndToEnd.Searchlot_lotDetails_IsPresent threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.SearchAndViewEndToEnd.Searchlot_lotDetails_IsPresent() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\SearchAndViewEndToEnd.cs:line 370&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="83a4b072-21ef-4f87-a50a-5b14951c2953" testId="bad79be5-fbc3-15a8-0903-9ab92dae1769" testName="AdminLogin_AddAllocationForUserVehicle" computerName="SOLNB-1HX9F94" duration="00:00:05.8683674" startTime="2025-08-06T11:17:46.7669254+05:30" endTime="2025-08-06T11:17:52.6529657+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83a4b072-21ef-4f87-a50a-5b14951c2953">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.ParkingAllocationEnd_to_End.AdminLogin_AddAllocationForUserVehicle threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.ParkingAllocationEnd_to_End.AdminLogin_AddAllocationForUserVehicle() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\ParkingAllocationEnd-to-End.cs:line 45&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="26b5be07-a779-4b6b-a711-f2852e28ba6b" testId="6cb94083-fea9-dfab-35f1-12c87039359e" testName="SearchAllocation_VerifylotDetails_IsNotPresent" computerName="SOLNB-1HX9F94" duration="00:00:08.8106905" startTime="2025-08-06T11:17:46.7674650+05:30" endTime="2025-08-06T11:17:55.5954294+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="26b5be07-a779-4b6b-a711-f2852e28ba6b">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.SearchAndViewEndToEnd.SearchAllocation_VerifylotDetails_IsNotPresent threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.SearchAndViewEndToEnd.SearchAllocation_VerifylotDetails_IsNotPresent() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\SearchAndViewEndToEnd.cs:line 167&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5aaa029b-6045-465e-9865-3b0573141167" testId="2399168c-7c5c-8cc9-191d-337b90161317" testName="RegisterThenLoginAndVerifyDashboard" computerName="SOLNB-1HX9F94" duration="00:00:08.4836840" startTime="2025-08-06T11:17:46.7669653+05:30" endTime="2025-08-06T11:17:55.2683112+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5aaa029b-6045-465e-9865-3b0573141167">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.EndToEndUserFlowTests.RegisterThenLoginAndVerifyDashboard threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.EndToEndUserFlowTests.RegisterThenLoginAndVerifyDashboard() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\EndToEndUserFlowTests.cs:line 41&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e2e441cf-852a-4d8d-afd3-10abb0a939a2" testId="dd6c2399-775d-fef6-7f0e-a332e1201d4d" testName="SearchAllocation_VerifyDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:05.7406052" startTime="2025-08-06T11:17:46.7669207+05:30" endTime="2025-08-06T11:17:52.5253368+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2e441cf-852a-4d8d-afd3-10abb0a939a2">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.SearchAndViewEndToEnd.SearchAllocation_VerifyDetails_IsPresent threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.SearchAndViewEndToEnd.SearchAllocation_VerifyDetails_IsPresent() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\SearchAndViewEndToEnd.cs:line 41&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1fd93cd5-42c1-477a-ac05-98cdd6723c36" testId="3b20d2a8-6bdb-4a0e-2b6c-14f3198e30fd" testName="SearchVehicle_VerifyVehicleDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:07.9059712" startTime="2025-08-06T11:17:46.7678203+05:30" endTime="2025-08-06T11:17:54.6907755+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fd93cd5-42c1-477a-ac05-98cdd6723c36">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.SearchAndViewEndToEnd.SearchVehicle_VerifyVehicleDetails_IsPresent threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.SearchAndViewEndToEnd.SearchVehicle_VerifyVehicleDetails_IsPresent() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\SearchAndViewEndToEnd.cs:line 210&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bda93bca-3efb-43d8-955b-a80196fe1dac" testId="f92b3407-5c51-8888-d3a2-5021207cc04c" testName="SearchAllocation_VerifyDetails_IsNotPresent" computerName="SOLNB-1HX9F94" duration="00:00:11.1823109" startTime="2025-08-06T11:17:46.7669720+05:30" endTime="2025-08-06T11:17:57.9687665+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bda93bca-3efb-43d8-955b-a80196fe1dac">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.SearchAndViewEndToEnd.SearchAllocation_VerifyDetails_IsNotPresent threw exception: &#xD;
+OpenQA.Selenium.UnknownErrorException: unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=138.0.7204.184)</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)&#xD;
+   at OpenQA.Selenium.Navigator.&lt;&gt;c__DisplayClass6_0.&lt;&lt;GoToUrl&gt;b__0&gt;d.MoveNext()&#xD;
+--- End of stack trace from previous location ---&#xD;
+   at OpenQA.Selenium.Navigator.GoToUrl(String url)&#xD;
+   at SeleniumTesting_Project.SearchAndViewEndToEnd.SearchAllocation_VerifyDetails_IsNotPresent() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\SearchAndViewEndToEnd.cs:line 84&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SearchAllocation_VerifylotDetails_IsNotPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="6cb94083-fea9-dfab-35f1-12c87039359e">
+      <Execution id="26b5be07-a779-4b6b-a711-f2852e28ba6b" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchAllocation_VerifylotDetails_IsNotPresent" />
+    </UnitTest>
+    <UnitTest name="SearchAllocation_VerifyDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="dd6c2399-775d-fef6-7f0e-a332e1201d4d">
+      <Execution id="e2e441cf-852a-4d8d-afd3-10abb0a939a2" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchAllocation_VerifyDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="RegisterThenLoginAndVerifyDashboard" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="2399168c-7c5c-8cc9-191d-337b90161317">
+      <Execution id="5aaa029b-6045-465e-9865-3b0573141167" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.EndToEndUserFlowTests" name="RegisterThenLoginAndVerifyDashboard" />
+    </UnitTest>
+    <UnitTest name="AdminLogin_AddAllocationForUserVehicle_WithFailScenario" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="0e51c84b-f98e-b497-2a53-c7501b2194eb">
+      <Execution id="8e3418dc-f506-4881-91fb-5116e2a2bcef" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.ParkingAllocationEnd_to_End" name="AdminLogin_AddAllocationForUserVehicle_WithFailScenario" />
+    </UnitTest>
+    <UnitTest name="Searchlot_VerifylotDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="f2599ea6-49d0-1a52-9cf3-06c42c72814c">
+      <Execution id="bd43d489-8011-4a6b-993f-e270c9ff1740" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="Searchlot_VerifylotDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="AdminAllocation_VehicleNotFound_ShowsError" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="63530cfe-6638-9f3f-7d33-496b8f8b65b3">
+      <Execution id="3c497edb-7756-43ca-bafc-e186c187fdc8" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.ParkingAllocationEnd_to_End" name="AdminAllocation_VehicleNotFound_ShowsError" />
+    </UnitTest>
+    <UnitTest name="SearchVehicle_GetVehicleDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="fc8fe753-6fc4-0d36-9762-7ce6b6791b70">
+      <Execution id="95449080-b93c-4d48-a371-22d516c141fb" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchVehicle_GetVehicleDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="AdminLogin_AddAllocationForUserVehicle" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="bad79be5-fbc3-15a8-0903-9ab92dae1769">
+      <Execution id="83a4b072-21ef-4f87-a50a-5b14951c2953" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.ParkingAllocationEnd_to_End" name="AdminLogin_AddAllocationForUserVehicle" />
+    </UnitTest>
+    <UnitTest name="Searchlot_VerifylotDetails_IsNotPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="2db294f3-38ae-d3c4-224e-261b8bc275dd">
+      <Execution id="c06c6c86-7a9d-47ab-a245-7318dc95d5a4" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="Searchlot_VerifylotDetails_IsNotPresent" />
+    </UnitTest>
+    <UnitTest name="SearchVehicle_VerifyVehicleDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="3b20d2a8-6bdb-4a0e-2b6c-14f3198e30fd">
+      <Execution id="1fd93cd5-42c1-477a-ac05-98cdd6723c36" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchVehicle_VerifyVehicleDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="SearchVehicle_VerifyVehicleDetails_IsNotPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="efbadfeb-318b-b6b9-c926-e3b92f558f3a">
+      <Execution id="76f3f69f-c0f0-40e3-ac38-05888bc132e4" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchVehicle_VerifyVehicleDetails_IsNotPresent" />
+    </UnitTest>
+    <UnitTest name="Searchlot_lotDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="c692436e-627b-30d2-715e-aebe0340b348">
+      <Execution id="ebe39c2d-69db-450c-b16f-2360f91d9a34" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="Searchlot_lotDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="SearchAllocation_VerifylotDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="87781c4c-cc06-2bdf-601e-3fb8ed7a6dce">
+      <Execution id="c3010831-ea8e-4f5f-a1cb-9f94f11d0906" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchAllocation_VerifylotDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="SearchAllocation_VerifyDetails_IsNotPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="f92b3407-5c51-8888-d3a2-5021207cc04c">
+      <Execution id="bda93bca-3efb-43d8-955b-a80196fe1dac" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchAllocation_VerifyDetails_IsNotPresent" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="63530cfe-6638-9f3f-7d33-496b8f8b65b3" executionId="3c497edb-7756-43ca-bafc-e186c187fdc8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e51c84b-f98e-b497-2a53-c7501b2194eb" executionId="8e3418dc-f506-4881-91fb-5116e2a2bcef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc8fe753-6fc4-0d36-9762-7ce6b6791b70" executionId="95449080-b93c-4d48-a371-22d516c141fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2db294f3-38ae-d3c4-224e-261b8bc275dd" executionId="c06c6c86-7a9d-47ab-a245-7318dc95d5a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efbadfeb-318b-b6b9-c926-e3b92f558f3a" executionId="76f3f69f-c0f0-40e3-ac38-05888bc132e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2599ea6-49d0-1a52-9cf3-06c42c72814c" executionId="bd43d489-8011-4a6b-993f-e270c9ff1740" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87781c4c-cc06-2bdf-601e-3fb8ed7a6dce" executionId="c3010831-ea8e-4f5f-a1cb-9f94f11d0906" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c692436e-627b-30d2-715e-aebe0340b348" executionId="ebe39c2d-69db-450c-b16f-2360f91d9a34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bad79be5-fbc3-15a8-0903-9ab92dae1769" executionId="83a4b072-21ef-4f87-a50a-5b14951c2953" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cb94083-fea9-dfab-35f1-12c87039359e" executionId="26b5be07-a779-4b6b-a711-f2852e28ba6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2399168c-7c5c-8cc9-191d-337b90161317" executionId="5aaa029b-6045-465e-9865-3b0573141167" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd6c2399-775d-fef6-7f0e-a332e1201d4d" executionId="e2e441cf-852a-4d8d-afd3-10abb0a939a2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b20d2a8-6bdb-4a0e-2b6c-14f3198e30fd" executionId="1fd93cd5-42c1-477a-ac05-98cdd6723c36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f92b3407-5c51-8888-d3a2-5021207cc04c" executionId="bda93bca-3efb-43d8-955b-a80196fe1dac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="14" executed="14" passed="0" failed="14" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test Parallelization enabled for C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll (Workers: 22, Scope: MethodLevel)&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63936&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63938&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63930&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 63936.&#xD;
+ChromeDriver was started successfully on port 63930.&#xD;
+ChromeDriver was started successfully on port 63938.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63928&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63941&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 63928.&#xD;
+ChromeDriver was started successfully on port 63941.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63940&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63937&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 63940.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63931&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 63937.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63934&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 63931.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63935&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63929&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 63934.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63932&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 63929.&#xD;
+ChromeDriver was started successfully on port 63935.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63939&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 63932.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 63933&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 63939.&#xD;
+ChromeDriver was started successfully on port 63933.&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

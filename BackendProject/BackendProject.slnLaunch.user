@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "BackendProject.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

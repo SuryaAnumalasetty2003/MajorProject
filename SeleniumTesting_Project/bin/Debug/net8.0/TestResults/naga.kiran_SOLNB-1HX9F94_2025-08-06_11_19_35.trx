@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="90d7265c-5ee0-436f-9150-2b099341641e" name="naga.kiran@SOLNB-1HX9F94 2025-08-06 11:19:35" runUser="INT\naga.kiran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-08-06T11:19:35.9593489+05:30" queuing="2025-08-06T11:19:35.9593493+05:30" start="2025-08-06T11:19:08.1804525+05:30" finish="2025-08-06T11:19:50.8834266+05:30" />
+  <TestSettings name="default" id="949faa1d-d8cc-4423-9810-931ed868b729">
+    <Deployment runDeploymentRoot="naga.kiran_SOLNB-1HX9F94_2025-08-06_11_19_35" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="09004d2a-4b67-4720-8f48-d478896d584c" testId="6cb94083-fea9-dfab-35f1-12c87039359e" testName="SearchAllocation_VerifylotDetails_IsNotPresent" computerName="SOLNB-1HX9F94" duration="00:00:36.8180569" startTime="2025-08-06T11:19:08.8405807+05:30" endTime="2025-08-06T11:19:45.6847696+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09004d2a-4b67-4720-8f48-d478896d584c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.SearchAndViewEndToEnd.SearchAllocation_VerifylotDetails_IsNotPresent threw exception: &#xD;
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---&gt; OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div.bg-white.border-l-4"}
+  (Session info: chrome=138.0.7204.184); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.&lt;&gt;c__DisplayClass7_0.&lt;ElementIsVisible&gt;b__0(IWebDriver driver)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)&#xD;
+--- End of inner exception stack trace ---&#xD;
+    at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)&#xD;
+   at SeleniumTesting_Project.SearchAndViewEndToEnd.SearchAllocation_VerifylotDetails_IsNotPresent() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\SearchAndViewEndToEnd.cs:line 186&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ecdd5900-f81a-4e26-b3f8-5f822d9089ac" testId="2399168c-7c5c-8cc9-191d-337b90161317" testName="RegisterThenLoginAndVerifyDashboard" computerName="SOLNB-1HX9F94" duration="00:00:41.9067953" startTime="2025-08-06T11:19:08.8393316+05:30" endTime="2025-08-06T11:19:50.7759473+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ecdd5900-f81a-4e26-b3f8-5f822d9089ac" />
+    <UnitTestResult executionId="0631ea58-d467-4fed-9f39-eca22baaedaa" testId="3b20d2a8-6bdb-4a0e-2b6c-14f3198e30fd" testName="SearchVehicle_VerifyVehicleDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:30.0431038" startTime="2025-08-06T11:19:08.8416719+05:30" endTime="2025-08-06T11:19:38.9094657+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0631ea58-d467-4fed-9f39-eca22baaedaa" />
+    <UnitTestResult executionId="f532bf62-9dd5-41cb-b161-02710de37f79" testId="f2599ea6-49d0-1a52-9cf3-06c42c72814c" testName="Searchlot_VerifylotDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:26.5452956" startTime="2025-08-06T11:19:08.8814787+05:30" endTime="2025-08-06T11:19:35.4310972+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f532bf62-9dd5-41cb-b161-02710de37f79" />
+    <UnitTestResult executionId="ee45fbe2-0a39-48b0-8cfe-45ee2c762f4c" testId="0e51c84b-f98e-b497-2a53-c7501b2194eb" testName="AdminLogin_AddAllocationForUserVehicle_WithFailScenario" computerName="SOLNB-1HX9F94" duration="00:00:33.0806284" startTime="2025-08-06T11:19:08.8393627+05:30" endTime="2025-08-06T11:19:41.9469826+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee45fbe2-0a39-48b0-8cfe-45ee2c762f4c" />
+    <UnitTestResult executionId="54d4d114-405d-4edc-b2bc-cfe1a2e00a26" testId="f92b3407-5c51-8888-d3a2-5021207cc04c" testName="SearchAllocation_VerifyDetails_IsNotPresent" computerName="SOLNB-1HX9F94" duration="00:00:29.0854650" startTime="2025-08-06T11:19:08.8395138+05:30" endTime="2025-08-06T11:19:37.9520550+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54d4d114-405d-4edc-b2bc-cfe1a2e00a26" />
+    <UnitTestResult executionId="a69e1f21-9540-44a9-8a7c-778a68f7e16b" testId="dd6c2399-775d-fef6-7f0e-a332e1201d4d" testName="SearchAllocation_VerifyDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:29.0426910" startTime="2025-08-06T11:19:08.8393510+05:30" endTime="2025-08-06T11:19:37.9090799+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a69e1f21-9540-44a9-8a7c-778a68f7e16b" />
+    <UnitTestResult executionId="7267240c-cffb-49e2-b707-c8ad0f224cec" testId="c692436e-627b-30d2-715e-aebe0340b348" testName="Searchlot_lotDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:29.0331702" startTime="2025-08-06T11:19:08.8815089+05:30" endTime="2025-08-06T11:19:37.9148738+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7267240c-cffb-49e2-b707-c8ad0f224cec" />
+    <UnitTestResult executionId="543c40bd-538c-4aeb-81d5-db18848e104d" testId="efbadfeb-318b-b6b9-c926-e3b92f558f3a" testName="SearchVehicle_VerifyVehicleDetails_IsNotPresent" computerName="SOLNB-1HX9F94" duration="00:00:27.1957334" startTime="2025-08-06T11:19:08.8814486+05:30" endTime="2025-08-06T11:19:36.0774485+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="543c40bd-538c-4aeb-81d5-db18848e104d" />
+    <UnitTestResult executionId="7ad20f90-cdd3-4f42-aa6e-63e9c97efcb9" testId="63530cfe-6638-9f3f-7d33-496b8f8b65b3" testName="AdminAllocation_VehicleNotFound_ShowsError" computerName="SOLNB-1HX9F94" duration="00:00:35.2945479" startTime="2025-08-06T11:19:08.8393406+05:30" endTime="2025-08-06T11:19:44.1613744+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ad20f90-cdd3-4f42-aa6e-63e9c97efcb9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.ParkingAllocationEnd_to_End.AdminAllocation_VehicleNotFound_ShowsError threw exception: &#xD;
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---&gt; OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#numberPlate"}
+  (Session info: chrome=138.0.7204.184); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.&lt;&gt;c__DisplayClass7_0.&lt;ElementIsVisible&gt;b__0(IWebDriver driver)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)&#xD;
+--- End of inner exception stack trace ---&#xD;
+    at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)&#xD;
+   at SeleniumTesting_Project.ParkingAllocationEnd_to_End.AdminAllocation_VehicleNotFound_ShowsError() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\ParkingAllocationEnd-to-End.cs:line 200&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="214b1b80-2c68-4499-890f-7289a5786892" testId="2db294f3-38ae-d3c4-224e-261b8bc275dd" testName="Searchlot_VerifylotDetails_IsNotPresent" computerName="SOLNB-1HX9F94" duration="00:00:31.2515133" startTime="2025-08-06T11:19:08.8814985+05:30" endTime="2025-08-06T11:19:40.1333179+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="214b1b80-2c68-4499-890f-7289a5786892" />
+    <UnitTestResult executionId="207450d5-19dd-4f80-a5d5-6a404db4850c" testId="fc8fe753-6fc4-0d36-9762-7ce6b6791b70" testName="SearchVehicle_GetVehicleDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:27.8416046" startTime="2025-08-06T11:19:08.8815215+05:30" endTime="2025-08-06T11:19:36.7233843+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="207450d5-19dd-4f80-a5d5-6a404db4850c" />
+    <UnitTestResult executionId="a053d224-1456-428b-a011-e7ea0a6d3566" testId="bad79be5-fbc3-15a8-0903-9ab92dae1769" testName="AdminLogin_AddAllocationForUserVehicle" computerName="SOLNB-1HX9F94" duration="00:00:34.1877702" startTime="2025-08-06T11:19:08.8393082+05:30" endTime="2025-08-06T11:19:43.0550670+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a053d224-1456-428b-a011-e7ea0a6d3566">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SeleniumTesting_Project.ParkingAllocationEnd_to_End.AdminLogin_AddAllocationForUserVehicle threw exception: &#xD;
+OpenQA.Selenium.WebDriverTimeoutException: Timed out after 20 seconds ---&gt; OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name ="parkingLotId"]"}
+  (Session info: chrome=138.0.7204.184); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception</Message>
+          <StackTrace>    at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)&#xD;
+   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)&#xD;
+   at SeleniumExtras.WaitHelpers.ExpectedConditions.&lt;&gt;c__DisplayClass7_0.&lt;ElementIsVisible&gt;b__0(IWebDriver driver)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)&#xD;
+--- End of inner exception stack trace ---&#xD;
+    at OpenQA.Selenium.Support.UI.DefaultWait`1.ThrowTimeoutException(String exceptionMessage, Exception lastException)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition, CancellationToken token)&#xD;
+   at OpenQA.Selenium.Support.UI.DefaultWait`1.Until[TResult](Func`2 condition)&#xD;
+   at SeleniumTesting_Project.ParkingAllocationEnd_to_End.AdminLogin_AddAllocationForUserVehicle() in C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\ParkingAllocationEnd-to-End.cs:line 80&#xD;
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)&#xD;
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)&#xD;
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5ed4cd56-023e-46e4-8175-cf72499b1fad" testId="87781c4c-cc06-2bdf-601e-3fb8ed7a6dce" testName="SearchAllocation_VerifylotDetails_IsPresent" computerName="SOLNB-1HX9F94" duration="00:00:27.1254964" startTime="2025-08-06T11:19:08.8400575+05:30" endTime="2025-08-06T11:19:35.9922526+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5ed4cd56-023e-46e4-8175-cf72499b1fad" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="SearchAllocation_VerifylotDetails_IsNotPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="6cb94083-fea9-dfab-35f1-12c87039359e">
+      <Execution id="09004d2a-4b67-4720-8f48-d478896d584c" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchAllocation_VerifylotDetails_IsNotPresent" />
+    </UnitTest>
+    <UnitTest name="SearchAllocation_VerifyDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="dd6c2399-775d-fef6-7f0e-a332e1201d4d">
+      <Execution id="a69e1f21-9540-44a9-8a7c-778a68f7e16b" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchAllocation_VerifyDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="RegisterThenLoginAndVerifyDashboard" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="2399168c-7c5c-8cc9-191d-337b90161317">
+      <Execution id="ecdd5900-f81a-4e26-b3f8-5f822d9089ac" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.EndToEndUserFlowTests" name="RegisterThenLoginAndVerifyDashboard" />
+    </UnitTest>
+    <UnitTest name="AdminLogin_AddAllocationForUserVehicle_WithFailScenario" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="0e51c84b-f98e-b497-2a53-c7501b2194eb">
+      <Execution id="ee45fbe2-0a39-48b0-8cfe-45ee2c762f4c" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.ParkingAllocationEnd_to_End" name="AdminLogin_AddAllocationForUserVehicle_WithFailScenario" />
+    </UnitTest>
+    <UnitTest name="Searchlot_VerifylotDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="f2599ea6-49d0-1a52-9cf3-06c42c72814c">
+      <Execution id="f532bf62-9dd5-41cb-b161-02710de37f79" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="Searchlot_VerifylotDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="AdminAllocation_VehicleNotFound_ShowsError" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="63530cfe-6638-9f3f-7d33-496b8f8b65b3">
+      <Execution id="7ad20f90-cdd3-4f42-aa6e-63e9c97efcb9" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.ParkingAllocationEnd_to_End" name="AdminAllocation_VehicleNotFound_ShowsError" />
+    </UnitTest>
+    <UnitTest name="SearchVehicle_GetVehicleDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="fc8fe753-6fc4-0d36-9762-7ce6b6791b70">
+      <Execution id="207450d5-19dd-4f80-a5d5-6a404db4850c" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchVehicle_GetVehicleDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="AdminLogin_AddAllocationForUserVehicle" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="bad79be5-fbc3-15a8-0903-9ab92dae1769">
+      <Execution id="a053d224-1456-428b-a011-e7ea0a6d3566" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.ParkingAllocationEnd_to_End" name="AdminLogin_AddAllocationForUserVehicle" />
+    </UnitTest>
+    <UnitTest name="Searchlot_VerifylotDetails_IsNotPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="2db294f3-38ae-d3c4-224e-261b8bc275dd">
+      <Execution id="214b1b80-2c68-4499-890f-7289a5786892" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="Searchlot_VerifylotDetails_IsNotPresent" />
+    </UnitTest>
+    <UnitTest name="SearchVehicle_VerifyVehicleDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="3b20d2a8-6bdb-4a0e-2b6c-14f3198e30fd">
+      <Execution id="0631ea58-d467-4fed-9f39-eca22baaedaa" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchVehicle_VerifyVehicleDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="SearchVehicle_VerifyVehicleDetails_IsNotPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="efbadfeb-318b-b6b9-c926-e3b92f558f3a">
+      <Execution id="543c40bd-538c-4aeb-81d5-db18848e104d" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchVehicle_VerifyVehicleDetails_IsNotPresent" />
+    </UnitTest>
+    <UnitTest name="Searchlot_lotDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="c692436e-627b-30d2-715e-aebe0340b348">
+      <Execution id="7267240c-cffb-49e2-b707-c8ad0f224cec" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="Searchlot_lotDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="SearchAllocation_VerifylotDetails_IsPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="87781c4c-cc06-2bdf-601e-3fb8ed7a6dce">
+      <Execution id="5ed4cd56-023e-46e4-8175-cf72499b1fad" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchAllocation_VerifylotDetails_IsPresent" />
+    </UnitTest>
+    <UnitTest name="SearchAllocation_VerifyDetails_IsNotPresent" storage="c:\users\naga.kiran\source\soleraproject\seleniumtesting_project\bin\debug\net8.0\seleniumtesting_project.dll" id="f92b3407-5c51-8888-d3a2-5021207cc04c">
+      <Execution id="54d4d114-405d-4edc-b2bc-cfe1a2e00a26" />
+      <TestMethod codeBase="C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll" adapterTypeName="executor://mstestadapter/v2" className="SeleniumTesting_Project.SearchAndViewEndToEnd" name="SearchAllocation_VerifyDetails_IsNotPresent" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="6cb94083-fea9-dfab-35f1-12c87039359e" executionId="09004d2a-4b67-4720-8f48-d478896d584c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2399168c-7c5c-8cc9-191d-337b90161317" executionId="ecdd5900-f81a-4e26-b3f8-5f822d9089ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b20d2a8-6bdb-4a0e-2b6c-14f3198e30fd" executionId="0631ea58-d467-4fed-9f39-eca22baaedaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2599ea6-49d0-1a52-9cf3-06c42c72814c" executionId="f532bf62-9dd5-41cb-b161-02710de37f79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e51c84b-f98e-b497-2a53-c7501b2194eb" executionId="ee45fbe2-0a39-48b0-8cfe-45ee2c762f4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f92b3407-5c51-8888-d3a2-5021207cc04c" executionId="54d4d114-405d-4edc-b2bc-cfe1a2e00a26" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd6c2399-775d-fef6-7f0e-a332e1201d4d" executionId="a69e1f21-9540-44a9-8a7c-778a68f7e16b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c692436e-627b-30d2-715e-aebe0340b348" executionId="7267240c-cffb-49e2-b707-c8ad0f224cec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efbadfeb-318b-b6b9-c926-e3b92f558f3a" executionId="543c40bd-538c-4aeb-81d5-db18848e104d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63530cfe-6638-9f3f-7d33-496b8f8b65b3" executionId="7ad20f90-cdd3-4f42-aa6e-63e9c97efcb9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2db294f3-38ae-d3c4-224e-261b8bc275dd" executionId="214b1b80-2c68-4499-890f-7289a5786892" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc8fe753-6fc4-0d36-9762-7ce6b6791b70" executionId="207450d5-19dd-4f80-a5d5-6a404db4850c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bad79be5-fbc3-15a8-0903-9ab92dae1769" executionId="a053d224-1456-428b-a011-e7ea0a6d3566" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87781c4c-cc06-2bdf-601e-3fb8ed7a6dce" executionId="5ed4cd56-023e-46e4-8175-cf72499b1fad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="14" executed="14" passed="11" failed="3" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>Test Parallelization enabled for C:\Users\naga.kiran\source\SoleraProject\SeleniumTesting_Project\bin\Debug\net8.0\SeleniumTesting_Project.dll (Workers: 22, Scope: MethodLevel)&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64594&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 64594.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64591&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64592&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 64591.&#xD;
+ChromeDriver was started successfully on port 64592.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64596&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64597&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 64596.&#xD;
+ChromeDriver was started successfully on port 64597.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64595&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64593&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 64595.&#xD;
+ChromeDriver was started successfully on port 64593.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64599&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64590&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 64599.&#xD;
+ChromeDriver was started successfully on port 64590.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64600&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64602&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 64602.&#xD;
+ChromeDriver was started successfully on port 64600.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64601&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64589&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 64601.&#xD;
+ChromeDriver was started successfully on port 64589.&#xD;
+Starting ChromeDriver 138.0.7204.183 (e90faf484ddbc033fc9bf337621761d3dd5c5289-refs/branch-heads/7204@{#2435}) on port 64598&#xD;
+Only local connections are allowed.&#xD;
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.&#xD;
+ChromeDriver was started successfully on port 64598.&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

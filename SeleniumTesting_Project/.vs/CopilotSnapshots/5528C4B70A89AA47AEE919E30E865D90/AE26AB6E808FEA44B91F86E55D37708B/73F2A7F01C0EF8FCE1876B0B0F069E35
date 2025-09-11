@@ -1,0 +1,444 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
+using System;
+using System.Linq;
+
+namespace SeleniumTesting_Project
+{
+    [TestClass]
+    public class SearchAndViewEndToEnd
+    {
+        private IWebDriver driver;
+        private WebDriverWait wait;
+        private string baseUrl = "http://localhost:5173"; // Your React app URL
+
+        [TestInitialize]
+        public void Setup()
+        {
+            var options = new ChromeOptions();
+            // options.AddArgument("--headless"); // Uncomment for headless mode
+            options.AddArgument("--window-size=1920,1080");
+            options.AcceptInsecureCertificates = true;
+            options.AddArgument("--allow-insecure-localhost");
+
+            driver = new ChromeDriver(options);
+            driver.Manage().Window.Maximize();
+
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
+        }
+
+        [TestMethod]
+        public void SearchAllocation_VerifyDetails_IsPresent()
+        {
+            string adminEmail = "surya@gmail.com"; // replace with valid admin email
+            string adminPassword = "Surya@143";    // replace with valid password
+            string searchTerm = "Ap27Z4777";        // vehicle number or lot number to search
+
+            // 1. Admin login:
+            driver.Navigate().GoToUrl($"{baseUrl}/");
+
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("email"))).SendKeys(adminEmail);
+            driver.FindElement(By.Id("password")).SendKeys(adminPassword);
+            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+
+            wait.Until(ExpectedConditions.UrlContains("/admin/dashboard"));
+
+            // 2. Navigate to allocations page
+            driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/allocations");
+
+            // 3. Wait for search input and enter search term
+            var searchInput = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[placeholder*='Search']")));
+            searchInput.Clear();
+            searchInput.SendKeys(searchTerm);
+
+            // Trigger search by Enter key
+            searchInput.SendKeys(Keys.Enter);
+
+            // 4. Wait for allocation items to load
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.bg-white.border-l-4"))); // selector for allocation card
+
+            // 5. Verify one or more allocations displayed contain the search term in plate or lot number
+            var allocationCards = driver.FindElements(By.CssSelector("div.bg-white.border-l-4"));
+            bool found = allocationCards.Any(card =>
+                card.Text.IndexOf(searchTerm, StringComparison.OrdinalIgnoreCase) >= 0);
+
+            Assert.IsTrue(found, $"No allocation found containing search term '{searchTerm}'.");
+
+        }
+
+        [TestMethod]
+        public void SearchAllocation_VerifyDetails_IsNotPresent()
+        {
+            string adminEmail = "surya@gmail.com"; 
+            string adminPassword = "Surya@143";   
+            string searchTerm = "Ap27Z4780";       
+            // 1. Admin login:
+            driver.Navigate().GoToUrl($"{baseUrl}/");
+
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("email"))).SendKeys(adminEmail);
+            driver.FindElement(By.Id("password")).SendKeys(adminPassword);
+            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+
+            wait.Until(ExpectedConditions.UrlContains("/admin/dashboard"));
+            Thread.Sleep(2000); // Allow time for dashboard to load
+
+            // 2. Navigate to allocations page
+            driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/allocations");
+            Thread.Sleep(2000); // Allow time for allocations page to load
+
+            // 3. Wait for search input and enter search term
+            var searchInput = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[placeholder*='Search']")));
+            searchInput.Clear();
+            searchInput.SendKeys(searchTerm);
+
+            // Trigger search by Enter key
+            searchInput.SendKeys(Keys.Enter);
+            // 4. Wait for either allocation cards or "No allocations found." message to be displayed
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.bg-white.border-l-4")));
+            var allocationCards = driver.FindElements(By.CssSelector("div.bg-white.border-l-4"));
+
+            bool notFound = allocationCards.All(card =>
+            card.Text.IndexOf(searchTerm, StringComparison.OrdinalIgnoreCase) < 0);
+
+
+            // 5. Assert that the no results message is displayed
+            Assert.IsTrue(notFound, "'No allocations found.' message was expected but not displayed.");
+        }
+        [TestMethod]
+        public void SearchAllocation_VerifylotDetails_IsPresent()
+        {
+            string adminEmail = "surya@gmail.com"; 
+            string adminPassword = "Surya@143";    
+            string searchTerm = "A01";       
+
+            // 1. Admin login:
+            driver.Navigate().GoToUrl($"{baseUrl}/");
+
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("email"))).SendKeys(adminEmail);
+            driver.FindElement(By.Id("password")).SendKeys(adminPassword);
+            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+
+            wait.Until(ExpectedConditions.UrlContains("/admin/dashboard"));
+            Thread.Sleep(2000); // Allow time for dashboard to load
+
+            // 2. Navigate to allocations page
+            driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/allocations");
+            Thread.Sleep(2000); // Allow time for allocations page to load
+
+            // 3. Wait for search input and enter search term
+            var searchInput = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[placeholder*='Search']")));
+            searchInput.Clear();
+            searchInput.SendKeys(searchTerm);
+
+            // Trigger search by Enter key
+            searchInput.SendKeys(Keys.Enter);
+
+            // 4. Wait for allocation items to load
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.bg-white.border-l-4"))); // selector for allocation card
+
+            // 5. Verify one or more allocations displayed contain the search term in plate or lot number
+            var allocationCards = driver.FindElements(By.CssSelector("div.bg-white.border-l-4"));
+            bool found = allocationCards.Any(card =>
+                card.Text.IndexOf(searchTerm, StringComparison.OrdinalIgnoreCase) >= 0);
+
+            Assert.IsTrue(found, $"No allocation found containing search term '{searchTerm}'.");
+        }
+        [TestMethod]
+        public void SearchAllocation_VerifylotDetails_IsNotPresent()
+        {
+            string adminEmail = "surya@gmail.com";
+            string adminPassword = "Surya@143";
+            string searchTerm = "A51";
+
+            // 1. Admin login:
+            driver.Navigate().GoToUrl($"{baseUrl}/");
+
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("email"))).SendKeys(adminEmail);
+            driver.FindElement(By.Id("password")).SendKeys(adminPassword);
+            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+
+            wait.Until(ExpectedConditions.UrlContains("/admin/dashboard"));
+
+            // 2. Navigate to allocations page
+            driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/allocations");
+
+            // 3. Wait for search input and enter search term
+            var searchInput = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[placeholder*='Search']")));
+            searchInput.Clear();
+            searchInput.SendKeys(searchTerm);
+
+            // Trigger search by Enter key
+            searchInput.SendKeys(Keys.Enter);
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.bg-white.border-l-4")));
+
+            // 4. Wait for either allocation cards or "No allocations found." message to be displayed
+            var allocationCards = driver.FindElements(By.CssSelector("div.bg-white.border-l-4"));
+
+            bool notFound = allocationCards.All(card =>
+            card.Text.IndexOf(searchTerm, StringComparison.OrdinalIgnoreCase) < 0);
+
+
+            // 5. Assert that the no results message is displayed
+            Assert.IsTrue(notFound, $"Allocation containing search term '{searchTerm}' was found, but it should NOT be present.");
+
+        }
+
+        [TestMethod]
+        public void SearchVehicle_VerifyVehicleDetails_IsPresent()
+        {
+            string adminEmail = "surya@gmail.com"; // replace with valid admin email
+            string adminPassword = "Surya@143";    // replace with valid password
+            string searchTerm = "Ap27Z4777";        // vehicle number or lot number to search
+
+            // 1. Admin login:
+            driver.Navigate().GoToUrl($"{baseUrl}/");
+
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("email"))).SendKeys(adminEmail);
+            driver.FindElement(By.Id("password")).SendKeys(adminPassword);
+            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+
+            wait.Until(ExpectedConditions.UrlContains("/admin/dashboard"));
+            Thread.Sleep(2000); // Allow time for dashboard to load
+
+            // 2. Navigate to allocations page
+            driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/vehicles");
+            Thread.Sleep(2000); // Allow time for allocations page to load
+
+            // 3. Wait for search input and enter search term
+            var searchInput = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[placeholder*='Search']")));
+            searchInput.Clear();
+            searchInput.SendKeys(searchTerm);
+
+            // Trigger search by Enter key
+            searchInput.SendKeys(Keys.Enter);
+
+            // 4. Wait for allocation items to load
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("table.min-w-full.bg-white"))); // selector for allocation card
+
+            // 5. Verify one or more allocations displayed contain the search term in plate or lot number
+            var allocationCards = driver.FindElements(By.CssSelector("table.min-w-full.bg-white"));
+            bool found = allocationCards.Any(card =>
+                card.Text.IndexOf(searchTerm, StringComparison.OrdinalIgnoreCase) >= 0);
+
+            Assert.IsTrue(found, $"No Vehicle found containing search term '{searchTerm}'.");
+
+            Thread.Sleep(10000); // Wait for visual confirmation
+        }
+        [TestMethod]
+        public void SearchVehicle_VerifyVehicleDetails_IsNotPresent()
+        {
+            string adminEmail = "surya@gmail.com";
+            string adminPassword = "Surya@143";
+            string searchTerm = "AP04K3627";
+
+            // 1. Admin login:
+            driver.Navigate().GoToUrl($"{baseUrl}/");
+
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("email"))).SendKeys(adminEmail);
+            driver.FindElement(By.Id("password")).SendKeys(adminPassword);
+            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+
+            wait.Until(ExpectedConditions.UrlContains("/admin/dashboard"));
+
+            // 2. Navigate to allocations page
+            driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/allocations");
+
+            // 3. Wait for search input and enter search term
+            var searchInput = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[placeholder*='Search']")));
+            searchInput.Clear();
+            searchInput.SendKeys(searchTerm);
+
+            // Trigger search by Enter key
+            searchInput.SendKeys(Keys.Enter);
+            Thread.Sleep(2000); // Allow time for search to process
+
+            // 4. Wait for either allocation cards or "No allocations found." message to be displayed
+            var allocationCards = driver.FindElements(By.CssSelector("table.min-w-full.bg-white"));
+
+            bool notFound = allocationCards.All(card =>
+            card.Text.IndexOf(searchTerm, StringComparison.OrdinalIgnoreCase) < 0);
+
+            // 5. Assert that the no results message is displayed
+            Assert.IsTrue(notFound, "'No allocations found.' message was expected but not displayed.");
+
+            Thread.Sleep(10000); // Wait for visual confirmation
+        }
+        [TestMethod]
+        public void Searchlot_VerifylotDetails_IsPresent()
+        {
+            string adminEmail = "surya@gmail.com";
+            string adminPassword = "Surya@143";
+            string searchTerm = "A01";
+
+            // 1. Admin login:
+            driver.Navigate().GoToUrl($"{baseUrl}/");
+
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("email"))).SendKeys(adminEmail);
+            driver.FindElement(By.Id("password")).SendKeys(adminPassword);
+            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+
+            wait.Until(ExpectedConditions.UrlContains("/admin/dashboard"));
+            Thread.Sleep(2000); // Allow time for dashboard to load
+
+            // 2. Navigate to allocations page
+            driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/parking-lots");
+            Thread.Sleep(2000); // Allow time for allocations page to load
+
+            // 3. Wait for search input and enter search term
+            var searchInput = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[placeholder*='Search']")));
+            searchInput.Clear();
+            searchInput.SendKeys(searchTerm);
+
+            // Trigger search by Enter key
+            searchInput.SendKeys(Keys.Enter);
+
+            // 4. Wait for allocation items to load
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.rounded.shadow.p-4"))); // selector for allocation card
+
+            // 5. Verify one or more allocations displayed contain the search term in plate or lot number
+            var allocationCards = driver.FindElements(By.CssSelector("div.rounded.shadow.p-4"));
+            bool found = allocationCards.Any(card =>
+                card.Text.IndexOf(searchTerm, StringComparison.OrdinalIgnoreCase) >= 0);
+
+            Assert.IsTrue(found, $"No allocation found containing search term '{searchTerm}'.");
+
+            Thread.Sleep(10000); // Wait for visual confirmation
+        }
+        [TestMethod]
+        public void Searchlot_VerifylotDetails_IsNotPresent()
+        {
+            string adminEmail = "surya@gmail.com";
+            string adminPassword = "Surya@143";
+            string searchTerm = "A51";
+
+            // 1. Admin login:
+            driver.Navigate().GoToUrl($"{baseUrl}/");
+
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("email"))).SendKeys(adminEmail);
+            driver.FindElement(By.Id("password")).SendKeys(adminPassword);
+            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+
+            wait.Until(ExpectedConditions.UrlContains("/admin/dashboard"));
+
+            // 2. Navigate to allocations page
+            driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/parking-lots");
+
+            // 3. Wait for search input and enter search term
+            var searchInput = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[placeholder*='Search']")));
+            searchInput.Clear();
+            searchInput.SendKeys(searchTerm);
+
+            // Trigger search by Enter key
+            searchInput.SendKeys(Keys.Enter);
+            Thread.Sleep(2000); // Allow time for search to process
+
+            // 4. Wait for either allocation cards or "No allocations found." message to be displayed
+            var allocationCards = driver.FindElements(By.CssSelector("div.rounded.shadow.p-4"));
+
+            bool notFound = allocationCards.All(card =>
+            card.Text.IndexOf(searchTerm, StringComparison.OrdinalIgnoreCase) < 0);
+
+            // 5. Assert that the no results message is displayed
+            Assert.IsTrue(notFound, "'No allocations found.' message was expected but not displayed.");
+
+            Thread.Sleep(10000); // Wait for visual confirmation
+        }
+        [TestMethod]
+        public void Searchlot_lotDetails_IsPresent()
+        {
+            string adminEmail = "surya@gmail.com";
+            string adminPassword = "Surya@143";
+            string searchTerm = "A01";
+
+            // 1. Admin login:
+            driver.Navigate().GoToUrl($"{baseUrl}/");
+
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("email"))).SendKeys(adminEmail);
+            driver.FindElement(By.Id("password")).SendKeys(adminPassword);
+            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+
+            wait.Until(ExpectedConditions.UrlContains("/admin/dashboard"));
+            Thread.Sleep(2000); // Allow time for dashboard to load
+
+            // 2. Navigate to allocations page
+            driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/parking-lots");
+            Thread.Sleep(2000); // Allow time for allocations page to load
+
+            // 3. Wait for search input and enter search term
+            var searchInput = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[placeholder*='Search']")));
+            searchInput.Clear();
+            searchInput.SendKeys(searchTerm);
+
+            // Trigger search by Enter key
+            searchInput.SendKeys(Keys.Enter);
+
+            // 4. Wait for allocation items to load
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("div.rounded.shadow.p-4"))); // selector for allocation card
+
+            // 5. Verify one or more allocations displayed contain the search term in plate or lot number
+            var allocationCards = driver.FindElements(By.CssSelector("div.rounded.shadow.p-4"));
+            bool found = allocationCards.Any(card =>
+                card.Text.IndexOf(searchTerm, StringComparison.OrdinalIgnoreCase) >= 0);
+
+            if (found)
+            {
+                driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/parking-lots/{searchTerm}");
+            }
+
+            Thread.Sleep(10000); // Wait for visual confirmation
+        }
+        [TestMethod]
+        public void SearchVehicle_GetVehicleDetails_IsPresent()
+        {
+            string adminEmail = "surya@gmail.com"; // replace with valid admin email
+            string adminPassword = "Surya@143";    // replace with valid password
+            string searchTerm = "Ap27Z4777";        // vehicle number or lot number to search
+
+            // 1. Admin login:
+            driver.Navigate().GoToUrl($"{baseUrl}/");
+
+            wait.Until(ExpectedConditions.ElementIsVisible(By.Id("email"))).SendKeys(adminEmail);
+            driver.FindElement(By.Id("password")).SendKeys(adminPassword);
+            driver.FindElement(By.CssSelector("button[type='submit']")).Click();
+
+            wait.Until(ExpectedConditions.UrlContains("/admin/dashboard"));
+            Thread.Sleep(2000); // Allow time for dashboard to load
+
+            // 2. Navigate to allocations page
+            driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/vehicles");
+            Thread.Sleep(2000); // Allow time for allocations page to load
+
+            // 3. Wait for search input and enter search term
+            var searchInput = wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("input[placeholder*='Search']")));
+            searchInput.Clear();
+            searchInput.SendKeys(searchTerm);
+
+            // Trigger search by Enter key
+            searchInput.SendKeys(Keys.Enter);
+
+            // 4. Wait for allocation items to load
+            wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("table.min-w-full.bg-white"))); // selector for allocation card
+
+            // 5. Verify one or more allocations displayed contain the search term in plate or lot number
+            var allocationCards = driver.FindElements(By.CssSelector("table.min-w-full.bg-white"));
+            bool found = allocationCards.Any(card =>
+                card.Text.IndexOf(searchTerm, StringComparison.OrdinalIgnoreCase) >= 0);
+
+            if(found)
+            {
+                driver.Navigate().GoToUrl($"{baseUrl}/admin/dashboard/vehicles/{searchTerm}");
+            }
+
+            Thread.Sleep(10000); // Wait for visual confirmation
+        }
+
+        [TestCleanup]
+        public void TearDown()
+        {
+            driver.Quit();
+        }
+    }
+}
