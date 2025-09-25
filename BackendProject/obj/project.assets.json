@@ -5899,11 +5899,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ParkingLotAllocationSystem\\BackendProject\\BackendProject.csproj",
+      "projectUniqueName": "C:\\MajorProject\\BackendProject\\BackendProject.csproj",
       "projectName": "BackendProject",
-      "projectPath": "C:\\ParkingLotAllocationSystem\\BackendProject\\BackendProject.csproj",
+      "projectPath": "C:\\MajorProject\\BackendProject\\BackendProject.csproj",
       "packagesPath": "C:\\Users\\naga.kiran\\.nuget\\packages\\",
-      "outputPath": "C:\\ParkingLotAllocationSystem\\BackendProject\\obj\\",
+      "outputPath": "C:\\MajorProject\\BackendProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

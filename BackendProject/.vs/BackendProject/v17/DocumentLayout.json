@@ -1,200 +1,185 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ParkingLotAllocationSystem\\BackendProject\\",
+  "WorkspaceRootPath": "C:\\MajorProject\\BackendProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\controllers\\parkingallocationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\controllers\\parkingallocationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:controllers\\parkingallocationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\parkingallocationupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\parkingallocationupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\parkingallocationupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\service\\implementation\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\service\\implementation\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:service\\implementation\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\service\\interface\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\service\\interface\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:service\\interface\\ijwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\service\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\service\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:service\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\userupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\userreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\userreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\userreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:repository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:repository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\service\\implementation\\parkinglotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\service\\implementation\\parkinglotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:service\\implementation\\parkinglotservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\service\\implementation\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\service\\implementation\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:service\\implementation\\vehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\repository\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\repository\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:repository\\ivehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\service\\interface\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\service\\interface\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:service\\interface\\ivehicleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\repository\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\repository\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:repository\\vehiclerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\repository\\iparkinglotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\repository\\iparkinglotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:repository\\iparkinglotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\repository\\parkinglotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\repository\\parkinglotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:repository\\parkinglotrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:seeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04FE5BEB-B9B1-4F67-A740-360DFCE4AF4C}|..\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj|c:\\parkinglotallocationsystem\\seleniumtesting_project\\endtoenduserflowtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\model\\parkingallocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\model\\parkingallocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:model\\parkingallocation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\model\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\model\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:model\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\model\\parkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\model\\parkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:model\\parkinglot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04FE5BEB-B9B1-4F67-A740-360DFCE4AF4C}|..\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj|c:\\parkinglotallocationsystem\\seleniumtesting_project\\parkingallocationend-to-end.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\parkingallocationreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\parkingallocationreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\parkingallocationreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\parkingallocationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\parkingallocationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\parkingallocationcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\dateonlyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\dateonlyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\dateonlyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9219B72E-F881-4A14-B282-D5953A10C16B}|..\\BackendProjectTests\\BackendProjectTests.csproj|c:\\parkinglotallocationsystem\\backendprojecttests\\service\\implementation\\vehicleservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\service\\implementation\\parkingallocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\service\\implementation\\parkingallocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:service\\implementation\\parkingallocationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04FE5BEB-B9B1-4F67-A740-360DFCE4AF4C}|..\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj|c:\\parkinglotallocationsystem\\seleniumtesting_project\\searchandviewendtoend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04FE5BEB-B9B1-4F67-A740-360DFCE4AF4C}|..\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj|c:\\parkinglotallocationsystem\\seleniumtesting_project\\seleniumtesting_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\parkinglotreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\parkinglotreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\parkinglotreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\parkinglotcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\parkinglotcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\parkinglotcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\parkinglotupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\parkinglotupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\parkinglotupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\vehiclecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\vehiclecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\vehiclecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\dto\\vehiclereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\dto\\vehiclereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:dto\\vehiclereaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\controllers\\parkinglotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\controllers\\parkinglotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:controllers\\parkinglotscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\parkinglotallocationsystem\\backendproject\\backendproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|c:\\majorproject\\backendproject\\backendproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{00B323BD-A42B-4F5B-A1A9-D6C0BDBCD194}|BackendProject.csproj|solutionrelative:backendproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
@@ -232,6 +217,21 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Controllers\\ParkingAllocationsControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\ParkingAllocationEnd-to-End.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\EndToEndUserFlowTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ParkingLotAllocationSystem\\BackendProjectTests\\Service\\Implementation\\VehicleServiceTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SearchAndViewEndToEnd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -251,9 +251,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Dockerfile",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Dockerfile",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -264,9 +264,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Mapping\\MappingProfile.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Mapping\\MappingProfile.cs",
               "RelativeToolTip": "Mapping\\MappingProfile.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwAgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -276,9 +276,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "JwtSettings.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Settings\\JwtSettings.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Settings\\JwtSettings.cs",
               "RelativeDocumentMoniker": "Settings\\JwtSettings.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Settings\\JwtSettings.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Settings\\JwtSettings.cs",
               "RelativeToolTip": "Settings\\JwtSettings.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -288,9 +288,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "IJwtService.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Interface\\IJwtService.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Service\\Interface\\IJwtService.cs",
               "RelativeDocumentMoniker": "Service\\Interface\\IJwtService.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Interface\\IJwtService.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Service\\Interface\\IJwtService.cs",
               "RelativeToolTip": "Service\\Interface\\IJwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -300,9 +300,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Implementation\\JwtService.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Service\\Implementation\\JwtService.cs",
               "RelativeDocumentMoniker": "Service\\Implementation\\JwtService.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Implementation\\JwtService.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Service\\Implementation\\JwtService.cs",
               "RelativeToolTip": "Service\\Implementation\\JwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -312,22 +312,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Program.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Program.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T11:24:37.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T11:24:37.481Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\appsettings.json",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\appsettings.json",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -337,9 +336,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Model\\User.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Model\\User.cs",
               "RelativeDocumentMoniker": "Model\\User.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Model\\User.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Model\\User.cs",
               "RelativeToolTip": "Model\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -349,9 +348,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ParkingAllocationUpdateDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingAllocationUpdateDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\ParkingAllocationUpdateDto.cs",
               "RelativeDocumentMoniker": "DTO\\ParkingAllocationUpdateDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingAllocationUpdateDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\ParkingAllocationUpdateDto.cs",
               "RelativeToolTip": "DTO\\ParkingAllocationUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -361,9 +360,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ParkingAllocationsController.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Controllers\\ParkingAllocationsController.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Controllers\\ParkingAllocationsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ParkingAllocationsController.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Controllers\\ParkingAllocationsController.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Controllers\\ParkingAllocationsController.cs",
               "RelativeToolTip": "Controllers\\ParkingAllocationsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -373,9 +372,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Controllers\\UsersController.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Controllers\\UsersController.cs",
               "RelativeToolTip": "Controllers\\UsersController.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAuwI4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -385,9 +384,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "VehicleController.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Controllers\\VehicleController.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Controllers\\VehicleController.cs",
               "RelativeDocumentMoniker": "Controllers\\VehicleController.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Controllers\\VehicleController.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Controllers\\VehicleController.cs",
               "RelativeToolTip": "Controllers\\VehicleController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -397,9 +396,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "UserUpdateDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\UserUpdateDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\UserUpdateDto.cs",
               "RelativeDocumentMoniker": "DTO\\UserUpdateDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\UserUpdateDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\UserUpdateDto.cs",
               "RelativeToolTip": "DTO\\UserUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -409,9 +408,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\LoginDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\LoginDto.cs",
               "RelativeDocumentMoniker": "DTO\\LoginDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\LoginDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\LoginDto.cs",
               "RelativeToolTip": "DTO\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -421,9 +420,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Implementation\\UserService.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Service\\Implementation\\UserService.cs",
               "RelativeDocumentMoniker": "Service\\Implementation\\UserService.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Implementation\\UserService.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Service\\Implementation\\UserService.cs",
               "RelativeToolTip": "Service\\Implementation\\UserService.cs",
               "ViewState": "AgIAAJYAAAAAAAAAAAAAAKcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -433,9 +432,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Interface\\IUserService.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Service\\Interface\\IUserService.cs",
               "RelativeDocumentMoniker": "Service\\Interface\\IUserService.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Interface\\IUserService.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Service\\Interface\\IUserService.cs",
               "RelativeToolTip": "Service\\Interface\\IUserService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -445,9 +444,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\RegisterDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\RegisterDto.cs",
               "RelativeDocumentMoniker": "DTO\\RegisterDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\RegisterDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\RegisterDto.cs",
               "RelativeToolTip": "DTO\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -457,9 +456,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "UserReadDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\UserReadDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\UserReadDto.cs",
               "RelativeDocumentMoniker": "DTO\\UserReadDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\UserReadDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\UserReadDto.cs",
               "RelativeToolTip": "DTO\\UserReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -469,9 +468,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\GenericRepository.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Repository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Repository\\GenericRepository.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\GenericRepository.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Repository\\GenericRepository.cs",
               "RelativeToolTip": "Repository\\GenericRepository.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAkwB4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -481,9 +480,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\IGenericRepository.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Repository\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IGenericRepository.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\IGenericRepository.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Repository\\IGenericRepository.cs",
               "RelativeToolTip": "Repository\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -493,9 +492,9 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -505,9 +504,9 @@
               "$type": "Document",
               "DocumentIndex": 21,
               "Title": "ParkingLotService.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Implementation\\ParkingLotService.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Service\\Implementation\\ParkingLotService.cs",
               "RelativeDocumentMoniker": "Service\\Implementation\\ParkingLotService.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Implementation\\ParkingLotService.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Service\\Implementation\\ParkingLotService.cs",
               "RelativeToolTip": "Service\\Implementation\\ParkingLotService.cs",
               "ViewState": "AgIAADAAAAAAAAAAAAAYwLcAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -517,9 +516,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "IvehicleRepository.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\IvehicleRepository.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Repository\\IvehicleRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IvehicleRepository.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\IvehicleRepository.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Repository\\IvehicleRepository.cs",
               "RelativeToolTip": "Repository\\IvehicleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -529,9 +528,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "IVehicleService.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Interface\\IVehicleService.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Service\\Interface\\IVehicleService.cs",
               "RelativeDocumentMoniker": "Service\\Interface\\IVehicleService.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Interface\\IVehicleService.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Service\\Interface\\IVehicleService.cs",
               "RelativeToolTip": "Service\\Interface\\IVehicleService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -541,9 +540,9 @@
               "$type": "Document",
               "DocumentIndex": 22,
               "Title": "VehicleService.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Implementation\\VehicleService.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Service\\Implementation\\VehicleService.cs",
               "RelativeDocumentMoniker": "Service\\Implementation\\VehicleService.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Implementation\\VehicleService.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Service\\Implementation\\VehicleService.cs",
               "RelativeToolTip": "Service\\Implementation\\VehicleService.cs",
               "ViewState": "AgIAALEAAAAAAAAAAAAuwCsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -551,11 +550,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 31,
               "Title": "Vehicle.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Model\\Vehicle.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Model\\Vehicle.cs",
               "RelativeDocumentMoniker": "Model\\Vehicle.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Model\\Vehicle.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Model\\Vehicle.cs",
               "RelativeToolTip": "Model\\Vehicle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -565,9 +564,9 @@
               "$type": "Document",
               "DocumentIndex": 26,
               "Title": "IParkingLotRepository.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\IParkingLotRepository.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Repository\\IParkingLotRepository.cs",
               "RelativeDocumentMoniker": "Repository\\IParkingLotRepository.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\IParkingLotRepository.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Repository\\IParkingLotRepository.cs",
               "RelativeToolTip": "Repository\\IParkingLotRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -577,9 +576,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "VehicleRepository.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\VehicleRepository.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Repository\\VehicleRepository.cs",
               "RelativeDocumentMoniker": "Repository\\VehicleRepository.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\VehicleRepository.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Repository\\VehicleRepository.cs",
               "RelativeToolTip": "Repository\\VehicleRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -587,12 +586,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 57,
               "Title": "ParkingAllocationEnd-to-End.cs",
               "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\ParkingAllocationEnd-to-End.cs",
-              "RelativeDocumentMoniker": "..\\SeleniumTesting_Project\\ParkingAllocationEnd-to-End.cs",
+              "RelativeDocumentMoniker": "..\\..\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\ParkingAllocationEnd-to-End.cs",
               "ToolTip": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\ParkingAllocationEnd-to-End.cs",
-              "RelativeToolTip": "..\\SeleniumTesting_Project\\ParkingAllocationEnd-to-End.cs",
+              "RelativeToolTip": "..\\..\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\ParkingAllocationEnd-to-End.cs",
               "ViewState": "AgIAAKUAAAAAAAAAAAAYwL4AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-12T10:20:54.412Z"
@@ -601,9 +600,9 @@
               "$type": "Document",
               "DocumentIndex": 28,
               "Title": "Seeding.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Seeding.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Seeding.cs",
               "RelativeDocumentMoniker": "Seeding.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Seeding.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Seeding.cs",
               "RelativeToolTip": "Seeding.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAYwCMAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -613,9 +612,9 @@
               "$type": "Document",
               "DocumentIndex": 27,
               "Title": "ParkingLotRepository.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\ParkingLotRepository.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Repository\\ParkingLotRepository.cs",
               "RelativeDocumentMoniker": "Repository\\ParkingLotRepository.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Repository\\ParkingLotRepository.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Repository\\ParkingLotRepository.cs",
               "RelativeToolTip": "Repository\\ParkingLotRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -623,11 +622,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 29,
               "Title": "AppDbContextFactory.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Data\\AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Data\\AppDbContextFactory.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContextFactory.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Data\\AppDbContextFactory.cs",
               "RelativeToolTip": "Data\\AppDbContextFactory.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -635,23 +634,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 58,
               "Title": "EndToEndUserFlowTests.cs",
               "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\EndToEndUserFlowTests.cs",
-              "RelativeDocumentMoniker": "..\\SeleniumTesting_Project\\EndToEndUserFlowTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\EndToEndUserFlowTests.cs",
               "ToolTip": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\EndToEndUserFlowTests.cs",
-              "RelativeToolTip": "..\\SeleniumTesting_Project\\EndToEndUserFlowTests.cs",
+              "RelativeToolTip": "..\\..\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\EndToEndUserFlowTests.cs",
               "ViewState": "AgIAAH4AAAAAAAAAAAAYwJ8AAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T10:06:01.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 35,
               "Title": "DateOnlyConverter.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\DateOnlyConverter.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\DateOnlyConverter.cs",
               "RelativeDocumentMoniker": "DTO\\DateOnlyConverter.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\DateOnlyConverter.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\DateOnlyConverter.cs",
               "RelativeToolTip": "DTO\\DateOnlyConverter.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAIBJwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -659,11 +658,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 32,
               "Title": "ParkingLot.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Model\\ParkingLot.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Model\\ParkingLot.cs",
               "RelativeDocumentMoniker": "Model\\ParkingLot.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Model\\ParkingLot.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Model\\ParkingLot.cs",
               "RelativeToolTip": "Model\\ParkingLot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -671,11 +670,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 30,
               "Title": "ParkingAllocation.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Model\\ParkingAllocation.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Model\\ParkingAllocation.cs",
               "RelativeDocumentMoniker": "Model\\ParkingAllocation.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Model\\ParkingAllocation.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Model\\ParkingAllocation.cs",
               "RelativeToolTip": "Model\\ParkingAllocation.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAmwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -683,11 +682,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 34,
               "Title": "ParkingAllocationCreateDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingAllocationCreateDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\ParkingAllocationCreateDto.cs",
               "RelativeDocumentMoniker": "DTO\\ParkingAllocationCreateDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingAllocationCreateDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\ParkingAllocationCreateDto.cs",
               "RelativeToolTip": "DTO\\ParkingAllocationCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -695,11 +694,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 33,
               "Title": "ParkingAllocationReadDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingAllocationReadDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\ParkingAllocationReadDto.cs",
               "RelativeDocumentMoniker": "DTO\\ParkingAllocationReadDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingAllocationReadDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\ParkingAllocationReadDto.cs",
               "RelativeToolTip": "DTO\\ParkingAllocationReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -707,23 +706,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 59,
               "Title": "VehicleServiceTests.cs",
               "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProjectTests\\Service\\Implementation\\VehicleServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\BackendProjectTests\\Service\\Implementation\\VehicleServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\ParkingLotAllocationSystem\\BackendProjectTests\\Service\\Implementation\\VehicleServiceTests.cs",
               "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProjectTests\\Service\\Implementation\\VehicleServiceTests.cs",
-              "RelativeToolTip": "..\\BackendProjectTests\\Service\\Implementation\\VehicleServiceTests.cs",
+              "RelativeToolTip": "..\\..\\ParkingLotAllocationSystem\\BackendProjectTests\\Service\\Implementation\\VehicleServiceTests.cs",
               "ViewState": "AgIAAJUAAAAAAAAAAAAewLMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T10:12:15.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 36,
               "Title": "ParkingAllocationService.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Implementation\\ParkingAllocationService.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Service\\Implementation\\ParkingAllocationService.cs",
               "RelativeDocumentMoniker": "Service\\Implementation\\ParkingAllocationService.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Service\\Implementation\\ParkingAllocationService.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Service\\Implementation\\ParkingAllocationService.cs",
               "RelativeToolTip": "Service\\Implementation\\ParkingAllocationService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -731,7 +730,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 45,
               "Title": "ParkingLotServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Service\\Implementation\\ParkingLotServiceTests.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Service\\Implementation\\ParkingLotServiceTests.cs",
@@ -743,35 +742,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 60,
               "Title": "SearchAndViewEndToEnd.cs",
               "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SearchAndViewEndToEnd.cs",
-              "RelativeDocumentMoniker": "..\\SeleniumTesting_Project\\SearchAndViewEndToEnd.cs",
+              "RelativeDocumentMoniker": "..\\..\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SearchAndViewEndToEnd.cs",
               "ToolTip": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SearchAndViewEndToEnd.cs",
-              "RelativeToolTip": "..\\SeleniumTesting_Project\\SearchAndViewEndToEnd.cs",
+              "RelativeToolTip": "..\\..\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SearchAndViewEndToEnd.cs",
               "ViewState": "AgIAADIBAAAAAAAAAADwv3gBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-08T06:58:12Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 61,
               "Title": "SeleniumTesting_Project.csproj",
               "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj",
-              "RelativeDocumentMoniker": "..\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj",
+              "RelativeDocumentMoniker": "..\\..\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj",
               "ToolTip": "C:\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj",
-              "RelativeToolTip": "..\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj",
+              "RelativeToolTip": "..\\..\\ParkingLotAllocationSystem\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-08-08T06:58:01.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 37,
               "Title": "ParkingLotReadDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingLotReadDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\ParkingLotReadDto.cs",
               "RelativeDocumentMoniker": "DTO\\ParkingLotReadDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingLotReadDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\ParkingLotReadDto.cs",
               "RelativeToolTip": "DTO\\ParkingLotReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -779,11 +778,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 38,
               "Title": "ParkingLotCreateDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingLotCreateDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\ParkingLotCreateDto.cs",
               "RelativeDocumentMoniker": "DTO\\ParkingLotCreateDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingLotCreateDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\ParkingLotCreateDto.cs",
               "RelativeToolTip": "DTO\\ParkingLotCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -791,11 +790,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 39,
               "Title": "ParkingLotUpdateDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingLotUpdateDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\ParkingLotUpdateDto.cs",
               "RelativeDocumentMoniker": "DTO\\ParkingLotUpdateDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\ParkingLotUpdateDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\ParkingLotUpdateDto.cs",
               "RelativeToolTip": "DTO\\ParkingLotUpdateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -803,11 +802,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 40,
               "Title": "VehicleCreateDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\VehicleCreateDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\VehicleCreateDto.cs",
               "RelativeDocumentMoniker": "DTO\\VehicleCreateDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\VehicleCreateDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\VehicleCreateDto.cs",
               "RelativeToolTip": "DTO\\VehicleCreateDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -815,11 +814,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 41,
               "Title": "VehicleReadDto.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\VehicleReadDto.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\DTO\\VehicleReadDto.cs",
               "RelativeDocumentMoniker": "DTO\\VehicleReadDto.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\DTO\\VehicleReadDto.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\DTO\\VehicleReadDto.cs",
               "RelativeToolTip": "DTO\\VehicleReadDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -827,7 +826,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 46,
               "Title": "ParkingLotsControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Controllers\\ParkingLotsControllerTests.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Controllers\\ParkingLotsControllerTests.cs",
@@ -839,11 +838,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 42,
               "Title": "ParkingLotsController.cs",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\Controllers\\ParkingLotsController.cs",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\Controllers\\ParkingLotsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ParkingLotsController.cs",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\Controllers\\ParkingLotsController.cs",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\Controllers\\ParkingLotsController.cs",
               "RelativeToolTip": "Controllers\\ParkingLotsController.cs",
               "ViewState": "AgIAAF8AAAAAAAAAAAAswIIAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -851,7 +850,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 47,
               "Title": "VehicleServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Service\\Implementation\\VehicleServiceTests.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Service\\Implementation\\VehicleServiceTests.cs",
@@ -863,7 +862,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 48,
               "Title": "UserServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Service\\Implementation\\UserServiceTests.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Service\\Implementation\\UserServiceTests.cs",
@@ -875,7 +874,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 49,
               "Title": "SearchAndViewEndToEnd.cs",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\SeleniumTesting_Project\\SearchAndViewEndToEnd.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\SeleniumTesting_Project\\SearchAndViewEndToEnd.cs",
@@ -887,7 +886,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 50,
               "Title": "MSTestSettings.cs",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\SeleniumTesting_Project\\MSTestSettings.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\SeleniumTesting_Project\\MSTestSettings.cs",
@@ -899,11 +898,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 43,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\appsettings.Development.json",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\appsettings.Development.json",
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -911,7 +910,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 51,
               "Title": "ParkingAllocationEnd-to-End.cs",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\SeleniumTesting_Project\\ParkingAllocationEnd-to-End.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\SeleniumTesting_Project\\ParkingAllocationEnd-to-End.cs",
@@ -923,7 +922,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 52,
               "Title": "VehiclesControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Controllers\\VehiclesControllerTests.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Controllers\\VehiclesControllerTests.cs",
@@ -935,7 +934,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 53,
               "Title": "UsersControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Controllers\\UsersControllerTests.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Controllers\\UsersControllerTests.cs",
@@ -947,7 +946,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 54,
               "Title": "SeleniumTesting_Project.csproj",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\SeleniumTesting_Project\\SeleniumTesting_Project.csproj",
@@ -959,7 +958,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 55,
               "Title": "EndToEndUserFlowTests.cs",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\SeleniumTesting_Project\\EndToEndUserFlowTests.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\SeleniumTesting_Project\\EndToEndUserFlowTests.cs",
@@ -971,11 +970,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 44,
               "Title": "BackendProject.csproj",
-              "DocumentMoniker": "C:\\ParkingLotAllocationSystem\\BackendProject\\BackendProject.csproj",
+              "DocumentMoniker": "C:\\MajorProject\\BackendProject\\BackendProject.csproj",
               "RelativeDocumentMoniker": "BackendProject.csproj",
-              "ToolTip": "C:\\ParkingLotAllocationSystem\\BackendProject\\BackendProject.csproj",
+              "ToolTip": "C:\\MajorProject\\BackendProject\\BackendProject.csproj",
               "RelativeToolTip": "BackendProject.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -983,7 +982,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 56,
               "Title": "ParkingAllocationsControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Controllers\\ParkingAllocationsControllerTests.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\naga.kiran\\source\\SoleraProject\\BackendProjectTests\\Controllers\\ParkingAllocationsControllerTests.cs",
